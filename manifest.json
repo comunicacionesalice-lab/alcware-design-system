@@ -5,8 +5,9 @@
   "category": "Business Software & SaaS",
   "description": "Cross-product design system for ALCWARE business software: compact, structured, operational UI with Teal interaction, DM Sans typography, clear data hierarchy and explicit semantic states.",
   "source": {
-    "type": "bundled",
-    "origin": "ALCWARE internal hand-authored design system"
+    "type": "github",
+    "url": "https://github.com/comunicacionesalice-lab/alcware-design-system",
+    "branch": "main"
   },
   "files": {
     "design": "DESIGN.md",
