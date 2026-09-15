@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg: #F4F8F9;
+  --surface: #FFFFFF;
+  --surface-warm: #FFFFFF;
+  --fg: #102124;
+  --fg-2: #2D3A3D;
+  --muted: #5D7074;
+  --meta: #91A4A8;
+  --border: #EAF3F4;
+  --border-soft: #EAF3F4;
+
+  --accent: #00909E;
+  --accent-on: #FFFFFF;
+  --accent-hover: #007C88;
+  --accent-active: #006B76;
+
+  --success: #43B76C;
+  --warn: #D9A441;
+  --danger: #E76F61;
+
+  --font-display: "DM Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 10.5px;
+  --text-sm: 11.5px;
+  --text-base: 13px;
+  --text-lg: 14px;
+  --text-xl: 16px;
+  --text-2xl: 20px;
+  --text-3xl: 28px;
+  --text-4xl: 31px;
+  --leading-body: 1.5;
+  --leading-tight: 1.15;
+  --tracking-display: -0.03em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --section-y-desktop: 32px;
+  --section-y-tablet: 24px;
+  --section-y-phone: 20px;
+
+  --radius-sm: 10px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 10px 26px rgba(0,91,99,.055);
+  --focus-ring: 0 0 0 3px rgba(0,144,158,.16);
+
+  --motion-fast: 150ms;
+  --motion-base: 200ms;
+  --motion-enter: 200ms;
+  --motion-exit: 140ms;
+  --ease-standard: cubic-bezier(.23,1,.32,1);
+
+  --container-max: 1680px;
+  --container-gutter-desktop: 34px;
+  --container-gutter-tablet: 22px;
+  --container-gutter-phone: 14px;
+
+  /* ALCWARE foundations */
+  --primary-900: #004F58;
+  --primary-800: #006B76;
+  --primary-700: #007C88;
+  --primary-600: #00909E;
+  --primary-500: #1EA4B0;
+  --primary-300: #74D5DA;
+  --primary-200: #BFECEF;
+  --primary-100: #E6F7F9;
+  --primary-50: #F3FBFC;
+
+  --neutral-950: #0B181B;
+  --neutral-900: #102124;
+  --neutral-800: #2D3A3D;
+  --neutral-700: #5D7074;
+  --neutral-600: #7C8D91;
+  --neutral-500: #91A4A8;
+  --neutral-400: #C2D2D6;
+  --neutral-300: #DDECEE;
+  --neutral-200: #EAF3F4;
+  --neutral-100: #F4F8F9;
+  --neutral-50: #FAFCFC;
+
+  --page-bg: var(--bg);
+  --surface-soft: #FAFCFC;
+  --border-strong: #DDECEE;
+  --text-strong: #0B181B;
+  --text-primary: #102124;
+  --text-secondary: #5D7074;
+  --text-muted: #91A4A8;
+  --shadow-card: 0 10px 26px rgba(0,91,99,.055);
+  --shadow-floating: 0 22px 54px rgba(16,33,36,.14);
+
+  --success-100: #DDF5E6;
+  --success-500: #43B76C;
+  --success-700: #2F7F4E;
+  --success-border: #BFE6CA;
+  --warning-100: #FAF4E6;
+  --warning-500: #D9A441;
+  --warning-700: #8A6A2F;
+  --warning-border: #EAD9B0;
+  --danger-100: #FFF0EE;
+  --danger-500: #E76F61;
+  --danger-700: #C9574B;
+  --danger-border: #F1B7B0;
+
+  --orange-100: #FFF3E8;
+  --orange-500: #F28C45;
+  --orange-700: #C96A28;
+  --blue-100: #EAF4FD;
+  --blue-500: #4F9BD3;
+  --blue-700: #356F9E;
+  --cyan-100: #E8F7F9;
+  --cyan-500: #58BFD0;
+  --cyan-700: #2E8790;
+  --violet-100: #F1EBFB;
+  --violet-500: #BFA6E8;
+  --violet-700: #7255A5;
+  --pink-100: #FBEAF1;
+  --pink-500: #E5A5C2;
+  --pink-700: #9B5574;
+
+  --interaction-hover-bg: #FAFCFC;
+  --interaction-hover-border: #DDECEE;
+  --interaction-hover-text: #006B76;
+  --interaction-selected-bg: #F3FBFC;
+  --interaction-selected-border: #BFECEF;
+  --interaction-selected-text: #006B76;
+  --interaction-row-hover-bg: #FAFCFC;
+}
+
+[data-theme="dark"], .theme-dark {
+  --bg: #0E1719;
+  --surface: #142124;
+  --surface-warm: #142124;
+  --fg: #E5EEF0;
+  --fg-2: #B8C8CB;
+  --muted: #96AAAE;
+  --meta: #81969A;
+  --border: #23373B;
+  --border-soft: #23373B;
+  --accent: #00909E;
+  --accent-on: #FFFFFF;
+  --accent-hover: #1EA4B0;
+  --accent-active: #007C88;
+  --surface-soft: #18282B;
+  --border-strong: #30484D;
+  --text-strong: #F3FAFB;
+  --text-primary: #E5EEF0;
+  --text-secondary: #B8C8CB;
+  --text-muted: #96AAAE;
+  --focus-ring: 0 0 0 3px rgba(116,213,218,.18);
+  --elev-raised: 0 12px 28px rgba(0,0,0,.18);
+}
