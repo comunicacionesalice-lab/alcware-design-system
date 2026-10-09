@@ -19,10 +19,27 @@
   "preview": {
     "dir": "preview",
     "pages": [
-      {"path": "preview/colors.html", "role": "colors", "title": "ALCWARE Colors"},
-      {"path": "preview/typography.html", "role": "typography", "title": "ALCWARE Typography"},
-      {"path": "preview/spacing.html", "role": "spacing", "title": "ALCWARE Spacing"},
-      {"path": "preview/components.html", "role": "components", "title": "ALCWARE Components"}
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "ALCWARE Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "ALCWARE Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "ALCWARE Spacing"
+      },
+      {
+        "path": "preview/components.html",
+        "role": "components",
+        "title": "ALCWARE Components"
+      }
     ]
-  }
+  },
+  "componentsManifest": "components.manifest.json"
 }
